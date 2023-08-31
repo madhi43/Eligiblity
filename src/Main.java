@@ -9,8 +9,8 @@ public class Main {
         int num = i.nextInt();
         System.out.println(c.func(num));
     }
-
-    static class calc {
+}
+class calc {
         String func(int n) {
             if (n >= 18)
                 return ("Eligible to vote");
@@ -18,4 +18,5 @@ public class Main {
                 return ("you are not eligible to vote");
         }
     }
-}
+
+
